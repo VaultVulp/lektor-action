@@ -1,0 +1,6 @@
+name: 'Lektor Action'
+description: 'Use lektor static site generator in your workflows'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
