@@ -13,10 +13,5 @@ COPY --from=node /lektor /lektor
 
 RUN pip install -U pip && \
     pip install /lektor
-
-LABEL "com.github.actions.name"="Lektor Action"
-LABEL "com.github.actions.description"="Use lektor static site generator in your workflows"
-LABEL "com.github.actions.icon"="package"
-LABEL "com.github.actions.color"="purple"
-
+    
 ENTRYPOINT ["lektor"]
