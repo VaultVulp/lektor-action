@@ -1,5 +1,9 @@
 name: 'Lektor Action'
 description: 'Use lektor static site generator in your workflows'
+author: 'VaultVulp'
+branding:
+  icon: 'package'  
+  color: 'purple'
 
 runs:
   using: 'docker'
